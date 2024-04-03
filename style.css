@@ -146,7 +146,7 @@ body {
   font-size: 5svw; 
   line-height: 8vw;
 }
-.outro {
+².outro {
   background: rgb(52, 58, 64);
   margin-top: 80svh;
   height: 30svh;
@@ -269,6 +269,9 @@ body {
   .ologo2 {
     font-size: 2svh;
     margin-left: -1svh;
+  }
+  .ologo2 ul {
+    margin-right: 2svh;
   }
   .outro hr {
     width: 44svh;
