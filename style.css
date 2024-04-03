@@ -1,0 +1,276 @@
+*{
+  text-decoration: none;
+  margin: 0;
+}
+body {
+  background: rgb(52, 58, 64);
+}
+.nav {
+  height: 15vw;
+  width: 90vw;
+  background: rgb(52, 58, 64);
+  padding-left: 5vw;
+  padding-right: 0vw;
+}
+.navdiv {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4vw;
+}
+.nlogo2 ul {
+  padding-top: 0;
+}
+.nlogo2 li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 3vw;
+}
+.nlogo2 li a {
+  color: white;
+  font-size: 4vw;
+  font-weight: bold;
+  margin-left: 3vw;
+}
+.nlogo a {
+  color: white;
+  font-size: 7vw;
+  font-weight: bold;
+}
+.scrollable {
+  overflow-x: scroll;
+  width: 100vw;
+}
+.scroll-div {
+  height: 10vw;
+  width: max-content;
+  display: flex;
+}
+.scolor1 {
+  background: rgb(254, 200, 154);
+  width: 35vw;
+}
+.scolor1 p {
+  color: white;
+  font-size: 5vw;
+  font-weight: bold;
+  padding-top: 2.5vw;
+  padding-left: 4vw;
+}
+.scolor2 {
+  background: rgb(219, 127, 142);
+  width: 35vw;
+}
+.scolor2 p {
+  color: white;
+  font-size: 5vw;
+  font-weight: bold;
+  padding-top: 2.5vw;
+  padding-left: 12vw;
+}
+.scolor3 {
+  background: rgb(127, 145, 131);
+  width: 35vw;
+}
+.scolor3 p {
+  color: white;
+  font-size: 5vw;
+  font-weight: bold;
+  padding-top: 2.5vw;
+  padding-left: 13vw;
+}
+.scolor4 {
+  background: rgb(184, 184, 170);
+  width: 35vw;
+}
+.scolor4 p {
+  color: white;
+  font-size: 5vw;
+  font-weight: bold;
+  padding-top: 2.5vw;
+  padding-left: 13vw;
+}
+.body {
+  width: 100vw;
+}
+.bcontainer {
+  margin: 5vw;
+  margin-top: 10vw;
+}
+.bpic {
+  border-radius: 20%;
+  border: 1px solid grey;
+  width: 100%;
+}
+.bitem {
+  background: rgb(176, 137, 104);
+  height: 150vw;
+  width: 100vw;
+  position: absolute;
+  top: 80vw;
+}
+.bitem p {
+  color: white;
+  font-size: 5vw;
+  line-height: 8vw;
+  margin: 7vw;
+  margin-left: 8vw;
+  margin-left: 8vw;
+}
+.end {
+  background: white;
+  width: 67vw;
+  height: 60vw;
+  position: absolute;
+  top: 90svh;
+  left: 5.5svh;
+  padding: 5svh;
+  border-radius: 10%;
+  box-shadow: 0 0 10px grey;
+}
+.elogo {
+  color: grey;
+  font-size: 8vw;
+  font-weight: bold;
+}
+.elogo2 ul {
+  margin-top: 3vw;
+  margin-left: -7vw;
+}
+.elogo2 li {
+  list-style: none;
+}
+.elogo2 li a {
+  color: grey;
+  font-size: 5svw; 
+  line-height: 8vw;
+}
+.outro {
+  background: rgb(52, 58, 64);
+  margin-top: 80svh;
+  height: 30svh;
+}
+.ologo1 {
+  color: white;
+  font-size: 5svh;
+  font-weight: bold;
+  padding-left: 19svh;
+  padding-top: 2svh;
+}
+.ologo2 {
+  color: white;
+  font-size: 3svh;
+  font-weight: bold;
+  padding-left: 31svh;
+  margin-top: -1svh;
+}
+.outro hr{
+  margin-top: 2svh;
+  margin-left: 5svh;
+  width: 54svh;
+}
+
+@media only screen and (max-width: 576px) {
+  .nav {
+    width: 94.7%;
+  }
+  .nlogo a {
+    font-size: 6vw;
+  }
+  .nlogo2 ul {
+    margin-right: 1svh;
+  }
+  .nlogo2 li {
+    margin-left: -2svh;
+  }
+  .scrollable {
+    width: 99.8%;
+  }
+  .scolor1 {
+    width: 23svh;
+  }
+  .scolor1 p {
+    width: 99.8%;
+  }
+  .body {
+    width: 99.8%;
+  }
+  .bpic {
+    width: 99.8%;
+  }
+  .bitem {
+    width: 99.8%;
+    height: 100svh;
+  }
+  .end {
+    width: 62vw;
+  }
+  .outro {
+    width: 99.8%;
+    margin-top: 86.5svh;
+  }
+  .ologo1 {
+    font-size: 4svh;
+    margin-left: -5svh;
+  }
+  .ologo2 {
+    font-size: 2svh;
+    margin-left: -1svh;
+  }
+  .outro hr {
+    width: 44svh;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  .nav {
+    width: 94.7%;
+  }
+  .nlogo a {
+    font-size: 6vw;
+  }
+  .nlogo2 ul {
+    margin-right: 1svh;
+  }
+  .nlogo2 li {
+    margin-left: -1svh;
+  }
+  .scrollable {
+    width: 99.8%;
+  }
+  .scolor1 {
+    width: 23svh;
+  }
+  .scolor1 p {
+    width: 99.8%;
+  }
+  .body {
+    width: 99.8%;
+  }
+  .bpic {
+    width: 49svh;
+  }
+  .bitem {
+    width: 99.8%;
+    height: 100svh;
+  }
+  .end {
+    width: 62vw;
+  }
+  .outro {
+    width: 99.8%;
+    margin-top: 86.5svh;
+  }
+  .ologo1 {
+    font-size: 4svh;
+    margin-left: -5svh;
+  }
+  .ologo2 {
+    font-size: 2svh;
+    margin-left: -1svh;
+  }
+  .outro hr {
+    width: 44svh;
+  }
+}
