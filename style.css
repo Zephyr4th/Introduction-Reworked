@@ -271,7 +271,7 @@ body {
     margin-left: -1svh;
   }
   .ologo2 ul {
-    margin-right: 2svh;
+    margin-left: 0;
   }
   .outro hr {
     width: 44svh;
